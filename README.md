@@ -5,4 +5,4 @@ Comands:
 ## press "d" for random encounter.
 ## press "a" for changing trainer.
 
-https://francessergi.github.io/POKEMON-RANDOM-ENCOUNTER
+https://francessergi.github.io/POKEMON-RANDOM-ENCOUNTER/
