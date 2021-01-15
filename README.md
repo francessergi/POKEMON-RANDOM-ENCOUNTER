@@ -15,3 +15,4 @@ https://francessergi.github.io/Pokemon-Random-Encounter/
 3. Flee chance.
 4. Store catched pokemon.
 5. Overworld movement with random encounter chance.
+6. Storage in local database.
