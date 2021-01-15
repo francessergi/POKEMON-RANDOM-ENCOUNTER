@@ -1,17 +1,17 @@
 # Pokemon-like game
-## Training exercice for improving my JavaScript skills.
+### Training exercice for improving my JavaScript skills.
 
-## Comands:
-#### 1."D": random encounter.
-#### 2."A": change trainer.
+## Key-map:
+#### D: random encounter.
+#### A: change trainer.
 
+## Github pages deployment:
 https://francessergi.github.io/Pokemon-Random-Encounter/
 
 
-Future implementations:
+## Future implementations:
 1. Throw pokeball function.
-Catch rate.
-Flee chance.
-Store catched pokemon.
-
-2. Overworl movement with random encounter chance.
+2. Catch rate.
+3. Flee chance.
+4. Store catched pokemon.
+5. Overworld movement with random encounter chance.
