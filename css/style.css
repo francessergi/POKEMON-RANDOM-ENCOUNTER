@@ -1,0 +1,61 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    div#menu {
+        height: 76px;
+        width: 100%;
+        background-color: white;
+        border: 4px solid black;
+    }
+    
+    #contenidor-pokemon {
+        width: 15em;
+        height: 15em;
+        align-self: flex-end;
+        padding-top: 8em;
+        margin-right: 6em;
+    }
+    
+    img {
+        width: 15em;
+    }
+    
+    #pokeball {
+        height: 2em;
+        width: auto;
+    }
+    
+    #trainer {
+        height: 15em;
+        width: auto;
+    }
+    
+    .pantalla {
+        width: 63%;
+        height: fit-content;
+        border: 1px solid black;
+        margin: auto;
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        background-image: url(../img/backgrounds/background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    @keyframes redflash {
+        to {
+            background-color: black;
+        }
+    }
+    
+    .red {
+        animation: redflash 0.1s 2 alternate ease-out;
+    }
+    
+    button {
+        cursor: url(../img/cursor.jpg), auto;
+    }
