@@ -1,9 +1,9 @@
 # Pokemon-like game
 ## Training exercice for improving my JavaScript skills.
 
-Comands:
-## press "D" for random encounter.
-## press "A" for changing trainer.
+## Comands:
+#### 1."D": random encounter.
+#### 2."A": change trainer.
 
 https://francessergi.github.io/Pokemon-Random-Encounter/
 
