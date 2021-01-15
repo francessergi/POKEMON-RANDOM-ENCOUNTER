@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
     <script>
-        <?php
-        include("open_db.php");
-        $query = "select num_pokedex, nom_pokemon from POKEMON";
-        $result = mysqli_query($conn, $query);
-        $php_array = array();
-        $php_array = $result->fetch_all(MYSQLI_ASSOC);
-        $js_array = json_encode($php_array);
-        echo "var pokemons = " . $js_array . ";\n";
-        include("close_db.php");
-        ?>
+        /* <? php
+                include("open_db.php");
+                $query = "select num_pokedex, nom_pokemon from POKEMON";
+                $result = mysqli_query($conn, $query);
+                $php_array = array();
+                $php_array = $result -> fetch_all(MYSQLI_ASSOC);
+                $js_array = json_encode($php_array);
+                echo "var pokemons = ".$js_array. ";\n";
+                include("close_db.php");
+                ?> */
         console.log(pokemons);
     </script>
 
