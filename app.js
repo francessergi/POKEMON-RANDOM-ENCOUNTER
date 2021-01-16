@@ -2,7 +2,7 @@ var trainerNum = 2;
 var img_container = document.getElementById("contenidor-pokemon");
 
 var fons = document.getElementById("encuentro");
-fons.style.height = screen.height + "px";
+fons.style.height = (screen.height - 76) + "px";
 
 /* var shine = document.createElement("img");
 shine.src = "./img/shiny.gif";
@@ -66,7 +66,7 @@ function flashRed() {
 
 function reverse_background() {
     encuentro.style.backgroundImage = "url(./img/backgrounds/reverse.png)";
-    setTimeout(() => { encuentro.style.backgroundImage = "url(./img/backgrounds/background.png)"; }, 800);
+    setTimeout(() => { encuentro.style.backgroundImage = "url(./img/backgrounds/background.png)"; }, 250);
 }
 
 function myFunction(event) {
