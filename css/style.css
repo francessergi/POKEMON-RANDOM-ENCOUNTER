@@ -12,11 +12,11 @@
     }
     
     #contenidor-pokemon {
-        width: 15em;
-        height: 15em;
-        align-self: flex-end;
-        padding-top: 8em;
-        margin-right: 6em;
+        margin-right: 0em;
+        padding-top: 0em;
+        position: absolute;
+        top: 35%;
+        left: 25%;
     }
     
     img {
@@ -58,4 +58,48 @@
     
     button {
         cursor: url(../img/cursor.jpg), auto;
+    }
+    
+    #shine-effect {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    @media (max-width:48em) {
+        .pantalla {
+            width: 100%;
+            height: 42em;
+            border: 1px solid black;
+            margin: auto;
+            margin-top: 0em;
+            display: flex;
+            flex-direction: column;
+            background-image: url(../img/backgrounds/background.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: flex-end;
+        }
+        #contenidor-pokemon {
+            margin-right: 0em;
+            padding-top: 0em;
+        }
+        div#menu {
+            height: 76px;
+            width: 100%;
+            background-color: initial;
+            border: initial;
+            display: flex;
+            justify-content: space-around;
+        }
+        #pokeball {
+            height: 4em;
+        }
+        #trainer {
+            height: 15em;
+            width: auto;
+            position: absolute;
+            left: -16px;
+            bottom: 0px;
+        }
     }
