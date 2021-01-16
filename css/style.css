@@ -14,7 +14,7 @@
     #contenidor-pokemon {
         margin-right: 0em;
         padding-top: 0em;
-        position: absolute;
+        position: fixed;
         top: 35%;
         left: 25%;
     }
@@ -26,11 +26,13 @@
     #pokeball {
         height: 2em;
         width: auto;
+        position: fixed;
     }
     
     #trainer {
         height: 15em;
         width: auto;
+        position: fixed;
     }
     
     .pantalla {
