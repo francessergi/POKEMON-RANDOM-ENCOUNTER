@@ -32,7 +32,6 @@
     #trainer {
         height: 15em;
         width: auto;
-        position: fixed;
     }
     
     .pantalla {
@@ -94,14 +93,14 @@
         }
         #pokeball {
             height: 4em;
-            position: absolute;
+            position: fixed;
             bottom: 8px;
             left: 40%;
         }
         #trainer {
             height: 15em;
             width: auto;
-            position: absolute;
+            position: fixed;
             left: -16px;
             bottom: 0px;
         }
