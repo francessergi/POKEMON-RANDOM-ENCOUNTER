@@ -1,12 +1,16 @@
 var trainerNum = 2;
-var fons = document.getElementById("encuentro");
-fons.style.height = window.screen.height + "px";
 var img_container = document.getElementById("contenidor-pokemon");
+
+var fons = document.getElementById("encuentro");
+fons.style.height = screen.height + "px";
 
 /* var shine = document.createElement("img");
 shine.src = "./img/shiny.gif";
 shine.id = "shine-effect"; */
 
+function ajusta() {
+
+}
 
 
 //Quan carreguem la pagina accedim a la BD i carreguem les opcions.
