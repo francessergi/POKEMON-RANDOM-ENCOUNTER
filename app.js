@@ -2,7 +2,7 @@ var trainerNum = 2;
 var img_container = document.getElementById("contenidor-pokemon");
 
 var fons = document.getElementById("encuentro");
-fons.style.height = (screen.height - 76) + "px";
+fons.style.height = screen.height + "px";
 
 /* var shine = document.createElement("img");
 shine.src = "./img/shiny.gif";
