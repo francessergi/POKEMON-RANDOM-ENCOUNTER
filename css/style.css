@@ -92,6 +92,8 @@
         }
         #pokeball {
             height: 4em;
+            position: absolute;
+            bottom: 8px;
         }
         #trainer {
             height: 15em;
