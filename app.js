@@ -1,6 +1,6 @@
 var trainerNum = 2;
 var fons = document.getElementById("encuentro");
-fons.style.height = window.screen.height;
+fons.style.height = window.screen.height + "px";
 var img_container = document.getElementById("contenidor-pokemon");
 
 /* var shine = document.createElement("img");
