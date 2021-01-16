@@ -38,7 +38,7 @@ function genera_pokemon() {
 function canvia_trainer() {
     var trainer = document.getElementById("trainer");
     trainer.src = "./img/trainers/trainer" + trainerNum + ".png";
-    trainerNum == 59 ? trainerNum = 1 : trainerNum++;
+    trainerNum == 58 ? trainerNum = 1 : trainerNum++;
 }
 
 function efecto_shiny() {
