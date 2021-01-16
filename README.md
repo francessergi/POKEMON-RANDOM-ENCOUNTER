@@ -2,8 +2,9 @@
 ### Training exercice for improving my JavaScript skills.
 
 ## Key-map:
-#### D: random encounter.
-#### A: change trainer.
+#### - D or Click Pokeball: random encounter.
+#### - A or Click Trainer: change trainer.
+#### - S or Click Pokemon: catch function().
 
 ## Github pages deployment:
 https://francessergi.github.io/Pokemon-Random-Encounter/
