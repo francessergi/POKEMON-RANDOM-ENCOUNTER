@@ -16,6 +16,7 @@ https://francessergi.github.io/Pokemon-Random-Encounter/
 4. Store catched pokemon.
 5. Overworld movement with random encounter chance.
 6. Storage in local database.
+7. Shiny animation.
 
 ## Ideas:
 1. Change backgroun and with it the pokemon types in it.
