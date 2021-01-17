@@ -22,3 +22,5 @@ https://francessergi.github.io/Pokemon-Random-Encounter/
 
 ## Ideas:
 1. Change backgroun and with it the pokemon types in it.
+2. window.localstorage.setItem("1", "Bulbasaur"). <--- Emmagatzemar pokemon capturats.
+Guarda entre 5 i 10 MB d'informació.
