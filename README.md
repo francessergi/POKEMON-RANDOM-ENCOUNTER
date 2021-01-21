@@ -24,3 +24,7 @@ https://francessergi.github.io/Pokemon-Random-Encounter/
 1. Change backgroun and with it the pokemon types in it.
 2. window.localstorage.setItem("1", "Bulbasaur"). <--- Emmagatzemar pokemon capturats.
 Guarda entre 5 i 10 MB d'informació.
+
+## Apunts:
+Amb AJAX puc fer que el random encounter aparegui despres de mourem.
+Em mouria i de sobre aleatoriament quan es compleixi un math eandom m'envia la pantalla de encounter mitjançant AJAX
