@@ -26,5 +26,5 @@ https://francessergi.github.io/Pokemon-Random-Encounter/
 Guarda entre 5 i 10 MB d'informació.
 
 ## Apunts:
-Amb AJAX puc fer que el random encounter aparegui despres de mourem.
+Amb AJAX puc fer que el random encounter aparegui despres de mourem.  
 Em mouria i de sobre aleatoriament quan es compleixi un math eandom m'envia la pantalla de encounter mitjançant AJAX
